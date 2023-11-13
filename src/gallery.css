@@ -1,0 +1,63 @@
+.h1-header {
+  text-align: center;
+  font-size: 4vw;
+}
+
+.photo-container {
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  position: relative;
+}
+
+.photo-card {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.photo-image {
+  border-radius: 25px;
+  border: 5px black;
+  border-style: solid;
+  filter: drop-shadow(20px 20px 10px black);
+  width: 450px;
+  height: 450px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-text {
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  white-space: nowrap;
+  transform: rotate(-45deg);
+}
+
+.button-container {
+  height: 200px;
+  position: relative; 
+}
+
+.button-container-center {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+button {
+  scale: 150%;
+}
